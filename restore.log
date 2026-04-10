@@ -1,0 +1,6 @@
+  Determining projects to restore...
+C:\Users\sriha\Downloads\SmartTravel-DotNet_1\SmartTravel\SmartTravel.csproj : warning NU1902: Package 'System.IdentityModel.Tokens.Jwt' 7.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52
+C:\Users\sriha\Downloads\SmartTravel-DotNet_1\SmartTravel\SmartTravel.csproj : error NU1605: Warning As Error: Detected package downgrade: System.IdentityModel.Tokens.Jwt from 7.0.3 to 7.0.0. Reference the package directly from the project to select a different version. 
+C:\Users\sriha\Downloads\SmartTravel-DotNet_1\SmartTravel\SmartTravel.csproj : error NU1605:  SmartTravel -> Microsoft.AspNetCore.Authentication.JwtBearer 8.0.0 -> Microsoft.IdentityModel.Protocols.OpenIdConnect 7.0.3 -> System.IdentityModel.Tokens.Jwt (>= 7.0.3) 
+C:\Users\sriha\Downloads\SmartTravel-DotNet_1\SmartTravel\SmartTravel.csproj : error NU1605:  SmartTravel -> System.IdentityModel.Tokens.Jwt (>= 7.0.0)
+  Failed to restore C:\Users\sriha\Downloads\SmartTravel-DotNet_1\SmartTravel\SmartTravel.csproj (in 243 ms).
